@@ -1,0 +1,6 @@
+*.cfg
+*~
+bin
+lib
+db.sqlite3
+.DS_Store
