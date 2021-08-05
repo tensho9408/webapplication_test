@@ -32,7 +32,7 @@ class Flight(models.Model):
 
     # Check that origin and duration is the same as destination and greater than 0
     def is_valid_flight(self):
-        return self.origin != self.destinations or self.duration >= 0
+        return self.origin != self.destinations and self.duration >= 0
 
 
 class Passenger(models.Model):
